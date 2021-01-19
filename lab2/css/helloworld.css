@@ -1,0 +1,27 @@
+h1 {
+  color: white;
+  font-size: 300%;
+}
+
+h2 {
+  color: white;
+  font-family: "comic sans";
+  text-indent: 10px;
+  margin-left: 10px;
+}
+p {
+  color: white;
+  font-family: "comic sans";
+  text-indent: 20px;
+  margin-left: 20px;
+}
+
+#content {
+  background-color: #DB7093;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px #FF1493;
+  font-size: 20px;
+}
