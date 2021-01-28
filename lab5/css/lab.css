@@ -1,0 +1,51 @@
+h1 {
+  color: #DB7093;
+  font-size: 300%;
+  margin-left: 10px;
+  text-shadow: 2px 2px #FF1493;
+}
+
+h2 {
+  color: white;
+  font-family: "comic sans";
+  text-indent: 10px;
+  margin-left: 10px;
+  text-shadow: 2px 2px #FF1493;
+}
+
+h3 {
+  color: white;
+  font-size: 15px;
+  font-family: "comic sans";
+  text-indent: 10px;
+  margin-left: 10px;
+  text-shadow: 2px 2px #FF1493;
+}
+
+p {
+  color: white;
+  font-family: "comic sans";
+  margin-left: 20px;
+}
+
+#content {
+  background-color: #DB7093;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px #FF1493;
+  font-size: 20px;
+}
+
+#output {
+  background-color: #DB7093;
+  width: 450px;
+  min-height: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px #FFFFFF;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
