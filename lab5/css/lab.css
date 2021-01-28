@@ -1,6 +1,6 @@
 h1 {
   color: #DB7093;
-  font-size: 300%;
+  font-size: 225%;
   margin-left: 10px;
   text-shadow: 2px 2px #FF1493;
 }
@@ -28,9 +28,16 @@ p {
   margin-left: 20px;
 }
 
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
 #content {
   background-color: #DB7093;
-  width: 500px;
+  width: 510px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
@@ -40,7 +47,7 @@ p {
 
 #output {
   background-color: #DB7093;
-  width: 450px;
+  width: 465px;
   min-height: 100px;
   padding: 10px;
   margin: 10px;
