@@ -28,13 +28,6 @@ p {
   margin-left: 20px;
 }
 
-.photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-}
-
 #content {
   background-color: #DB7093;
   width: 510px;
