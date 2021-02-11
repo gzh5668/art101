@@ -26,3 +26,8 @@ outputEl.appendChild(new2El);
 // Change the css attributes of at least two elements of your page
 new1El.style.color = 'blue';
 new2El.style.color = 'yellow';
+
+// Bonus: Can you add a new element to the top of an element?
+var new3El = document.createElement("p");
+new3El.innerHTML = "Bonus!";
+outputEl.insertBefore(new3El, new1El);
