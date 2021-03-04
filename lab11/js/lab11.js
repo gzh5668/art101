@@ -13,11 +13,24 @@ var results = $("#results");
 var buttonC = "<button id = challenge-button>Click Me!</button>";
 var buttonP = "<button id = problems-button>Or Me!</button>";
 var buttonR = "<button id = results-button>Me!</button>";
+var buttonA = "<button id = button1>You are RED</button>";
+var buttonB = "<button id = button2>You are BLUE</button>";
 
 // Add it to the section
 challenge.append(buttonC);
 problems.append(buttonP);
 results.append(buttonR);
+// bonus
+$("#content").prepend(buttonB);
+$("#content").prepend(buttonA);
+
+$("#button1").click(function(){
+  $("#button2").toggleClass("red");
+});
+
+$("#button2").click(function(){
+  $("#button1").toggleClass("blue");
+});
 
 // Add a click event to each button
 // Find the challenge, problems, or results section the button is in.

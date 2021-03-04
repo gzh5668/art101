@@ -9,10 +9,8 @@
   font-size: 20px;
 }
 
-.blue {background-color: #008CBA;} /* Blue */
-.red {background-color: #f44336;} /* Red */
-
 h1 {
+  text-indent: 10px;
   color: #DB7093;
   font-size: 225%;
   text-shadow: 2px 2px #FF1493;
@@ -23,6 +21,7 @@ h2 {
   font-family: "comic sans";
   text-indent: 10px;
   text-shadow: 2px 2px #FF1493;
+  text-align: center;
 }
 
 h3 {
@@ -31,11 +30,14 @@ h3 {
   font-family: "comic sans";
   text-indent: 10px;
   text-shadow: 2px 2px #FF1493;
+  text-align: center;
 }
 
 p {
   color: white;
   font-family: "comic sans";
+  padding: 10px;
+  margin: 10px;
 }
 
 #content {
@@ -46,5 +48,20 @@ p {
   margin: 10px;
   border: solid 2px #FF1493;
   font-size: 20px;
+}
+
+.input-output {
+  background-color: #DB7093;
+  width: 465px;
+  min-height: 115px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px #FFFFFF;
+  color: white;
   text-align: center;
+  font-size: 20px;
+}
+
+#output {
+  margin: 20px;
 }
