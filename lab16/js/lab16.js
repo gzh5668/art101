@@ -36,7 +36,7 @@ getAndPutData("https://xkcd.com/info.0.json");
 
  $("#backward").click(function(){
     var comicNum = comicObj.num - 1;
-    var newURL = "http://xkcd.com/" + comicNum + "/info.0.json";
+    var newURL = "https://xkcd.com/" + comicNum + "/info.0.json";
     getAndPutData(newURL);
 })
 
