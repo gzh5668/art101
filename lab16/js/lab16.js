@@ -23,7 +23,7 @@ function getAndPutData(apiURL){$.ajax({
     success: function(data) {
         // do stuff
         comicObj = data;
-        $("#output").html("<h2>" + data.title + "</h2>" +"<img src = '" + data.img + "' title= '" + data.alt + "'>");
+        $("#output").html("<h3>" + data.title + "</h3>" +"<img src = '" + data.img + "' title= '" + data.alt + "'>");
     },
     // What we do if the api call fails
     error: function (jqXHR, textStatus, errorThrown) {
@@ -34,8 +34,8 @@ function getAndPutData(apiURL){$.ajax({
 }
 getAndPutData("https://xkcd.com/info.0.json");
 
- // $(#'#backward').click(function(){
- //   var comicNum = comicObj.num - 1;
- //   var newUrl = "http://xkcd.com/"+ comicNum+"/info.0.json";
- //   getAndPutData(newUrl);
- // })
+ $("#backward").click(function(){
+    var comicNum = comicObj.num - 1;
+    var newUrl = "http://xkcd.com/"+ comicNum +"/info.0.json";
+    getAndPutData(newUrl);
+})

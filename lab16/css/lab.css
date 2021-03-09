@@ -45,13 +45,7 @@ p {
   font-size: 20px;
   text-align: center;
 }
-/* #output{
-      position: absolute;
-      right: 350px;
-      padding: 50px;
-      border-radius: 150px;
-      border: solid 2px black;
-      background-color: black;
-      width: 500px;
-      max-height: 1000px;
-} */
+
+#output{
+      width: 300px;
+}
