@@ -37,7 +37,7 @@ p {
 
 #content {
   background-color: #DB7093;
-  width: 510px;
+  width: 710px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
@@ -46,6 +46,6 @@ p {
   text-align: center;
 }
 
-#output{
+/* #output{
       width: 300px;
-}
+} */
