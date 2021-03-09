@@ -23,7 +23,7 @@ function getAndPutData(apiURL){$.ajax({
     success: function(data) {
         // do stuff
         comicObj = data;
-        $('#output-image').html("<h2>" + data.title + "</h2>" +"<img src = '" + data.img + "' title= '" + data.alt + "'>");
+        $("#output").html("<h2>" + data.title + "</h2>" +"<img src = '" + data.img + "' title= '" + data.alt + "'>");
     },
     // What we do if the api call fails
     error: function (jqXHR, textStatus, errorThrown) {
